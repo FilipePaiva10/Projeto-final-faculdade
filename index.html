@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>thingSpeak + droidScript</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left-area">
+      <h1>Dashboard</h1>
+      <span>Projeto final, exibindo luminosidade</span>
+
+      <div class="chart">
+        <iframe style="border: 1px solid #cccccc"
+          src="https://thingspeak.com/channels/1603270/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Testando+luminosidade&type=line"></iframe>
+      </div>
+
+      <p>
+        existe um delay de no min 15s para atualização, por favor espere!
+      </p>
+
+      <div class="icons">
+        <a href="https://droidscript.org/"><img
+            src="https://droidscript.org/wp-content/uploads/2020/08/cropped-unnamed.png" alt="" srcset="" /></a>
+        <a href="https://thingspeak.com/"><img
+            src="data:image/jpeg;base64,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"
+            alt="" srcset="" /></a>
+      </div>
+    </div>
+    <div class="right-area">
+      <div class="img-area">
+        <img src="/lampada.png" alt="">
+        <div class="control-light">
+          <div title="A Lâmpada vai acender de acordo com a luminosidade captada através do sensor do celular!" id="light" class="light"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

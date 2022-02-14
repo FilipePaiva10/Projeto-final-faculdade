@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+   
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #272727;
+    color: #FFF;
+}
+
+.container {
+    max-width: 1078px;
+    padding: 20px 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-area{
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+}
+
+
+.chart {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.chart iframe {
+    width: 100%;
+    min-width: 320px;
+    min-height: 280px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.icons a {
+    width: 80px;
+    margin: 0 20px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+.right-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.right-area .img-area img {
+    margin-top: -80px;
+    width: 200px;
+    height: auto;
+}
+
+.right-area .control-light {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right-area .control-light .light {
+    margin-top: -160px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 40px yellow; */
+}
